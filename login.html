@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Roms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="hal_5">
+    <div class="navigasi">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <h1>Roms<span>Origami</span></h1>
+                </div>
+                <div class="navlinks">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="kontak.html">Contact</a></li>
+                        <li><a href="#" class="join">Join Us</a></li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="bodi">
+    <div class="isi" id="main">
+        <div class="daftar">
+            <form action="#">
+                <h1>Daftar</h1>
+                <div class="kotak-sosmed">
+                    <a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fa fa-google"></i></a>
+                    <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <p>Atau Gunakan Email Anda Untuk Mendaftar</p>
+                <input type="text" name="nama" id="nama" placeholder="Nama" required>
+                <input type="email" name="" id="email" placeholder="Email" required>
+                <input type="password" name="" id="password" placeholder="Kata Sandi" required>
+                <button>Daftar</button>
+            </form>
+        </div>
+        <div class="masuk">
+            <form action="#">
+                <h1>Masuk</h1>
+                <div class="kotak-sosmed">
+                    <a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fa fa-google"></i></a>
+                    <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <p>Atau Gunakan Akun Anda Untuk Maasuk</p>
+                <input type="email" name="" id="email" placeholder="Email" required>
+                <input type="password" name="" id="password" placeholder="Kata Sandi" required>
+                <a href="#">Lupa Kata Sandi?</a>
+                <button>Masuk</button>
+            </form>
+        </div>
+        <div class="overlay-isi">
+            <div class="overlay">
+                <div class="overlay-kiri">
+                    <h1>Selamat Datang</h1>
+                    <p>Untuk dapat terhubung dengan kami<br/> silahkan login dengan akun anda</p>
+                    <button id="signin">Masuk</button>
+                </div>
+                <div class="overlay-kanan">
+                    <h1>Halo!</h1>
+                    <p>Masukkan informasi pribadi anda<br/>dan mulai bergabung dengan komunitas</p>
+                    <button id="signup">Daftar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    
+    <script>
+        const signupBtn = document.getElementById("signup");
+        const signinBtn = document.getElementById("signin");
+        const main = document.getElementById("main")
+
+        signup.addEventListener("click", ()=>{
+            main.classList.add("right-panel-active");
+        });
+        signin.addEventListener("click", ()=>{
+            main.classList.remove("right-panel-active");
+        });
+    </script>
+
+</body>
+</html>

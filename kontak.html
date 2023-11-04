@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak | Roms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body class="hal_4">
+    <div class="navigasi">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <h1>Roms<span>Origami</span></h1>
+                </div>
+                <div class="navlinks">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html"><u>Product</u></a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="login.html" class="join">Join Us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="isi">
+        <div class="baris">
+            <div class="kol-6 form-kontak-kanan">
+                <h2>Kirim Pesan</h2>
+                <p>Apabila anda mempunyai pesan atau pertanyaan yang ingin disampaikan Bisa Disampaikan Disini...  </p>
+                <form action="">
+                    <div>
+                        <label for="">Nama :</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Nomor HP :</label>
+                        <input type="tel">
+                    </div>
+                    <div>
+                        <label for="">Email :</label>
+                        <input type="email">
+                    </div>
+                    <div>
+                        <label for="">Pesan</label>
+                        <textarea></textarea>
+                    </div>
+                    <button class="kontak-btn" onclick="skrip_kirim()">Kirim Pesan</button>
+                </form>
+            </div>
+            <div class="kol-6 form-kontak-kiri">
+                <h2>Hubungi Kami</h2>
+                <div class="info-kontak">
+                    <div class="info-kontak-label">
+                        <span class="info-kontak-ikon"><i class="bx bxs-map-pin"></i></span>
+                        <span class="info-kontak-text">
+                            <strong>Alamat:</strong>
+                            <br/>Jl. Sidodadi Timur Nomor 24 Dr. Cipto Semarang
+                        </span>
+                    </div>
+                    <div class="info-kontak-label">
+                        <span class="info-kontak-ikon"><i class="bx bxs-phone-call"></i></span>
+                        <span class="info-kontak-text">
+                            <strong>Telepon:</strong>
+                            <br/>+6283726372111 
+                        </span>
+                    </div>
+                    <div class="info-kontak-label">
+                        <span class="info-kontak-ikon"><i class="bx bxs-envelope"></i></span>
+                        <span class="info-kontak-text">
+                            <strong>Email:</strong>
+                            <br/>romsorigami@gmail.com
+                        </span>
+                    </div>
+                    <div class="info-kontak-label">
+                        <span class="info-kontak-ikon"><i class="bx bxs-planet"></i></span>
+                        <span class="info-kontak-text">
+                            <strong>Website:</strong>
+                            <br/>www.romsorigami.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script>
+    function skrip_kirim() {
+      alert("Terima Kasih, Pesan Berhasil Terkirim :)");
+    }
+</script>
+</html>
