@@ -5,7 +5,7 @@
 ### Pages
 
 #### Landing Page
-<img src="gambar/SS/landingpage.png" width="300px">
+<img src="gambar/SS/landingpage.png" width="600px">
 
 #### Product Page
 
