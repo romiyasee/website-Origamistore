@@ -3,6 +3,7 @@
 ### HTML + CSS
 
 ### Pages
+<img src="gambar/landingpage.png" width="300px">
 
 #### Landing Page
 
