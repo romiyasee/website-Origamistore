@@ -3,9 +3,9 @@
 ### HTML + CSS
 
 ### Pages
-<img src="gambar/landingpage.png" width="300px">
 
 #### Landing Page
+<img src="gambar/SS/landingpage.png" width="300px">
 
 #### Product Page
 
